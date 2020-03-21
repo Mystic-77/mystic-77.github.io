@@ -1,28 +1,24 @@
 body{
     margin: 0;
     padding: 0;
+    height: 100vh;
+    background-attachment: fixed;
+    background-color: black;
 }
+
 /*
 #particles-js{
-    width: 100%;
-    height: 100%;
+
     background: #000;
-    font-size: 200px;
-    font-weight: 100;
-    color: aliceblue;
     display: flex;
 }
-*/
 
-.main-nav{
-    background-color: rgb(110, 78, 244);
-    color: antiquewhite;
-}
+*/
 a:link, a:visited{
-    color: antiquewhite;
+    color: #176259;
 }
 #brand{
-    color: antiquewhite;
+    color: #061746;
 }
 .nav-item{
     margin-right: 50px;
