@@ -1,2 +1,2 @@
-# Blog
-Just me trying to make a blog.
+# Portfolio
+Just me trying to make a potfolio page.
