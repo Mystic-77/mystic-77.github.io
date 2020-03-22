@@ -45,10 +45,15 @@ body{
 #navbutton{
     color: #08ef2b;
     padding: 0;
+    margin: 0;
 }
+
 .navbar{
     background-color: rgba(0, 0, 0, 0);
     font-family: 'Amatic SC', cursive;
     font-weight: 400;
+}
+#toggler{
+    color: chartreuse;
 }
 
