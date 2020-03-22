@@ -1,28 +1,54 @@
+/*
+font-family: 'Indie Flower', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Press Start 2P', cursive;
+*/
+
+*{
+    font-size: 40px;
+}
+
+::selection{
+    color: chartreuse;
+}
 body{
     margin: 0;
     padding: 0;
     height: 100vh;
     background-attachment: fixed;
     background-color: black;
+    font-family: 'Indie Flower', cursive;
 }
 
-/*
 #particles-js{
 
     background: #000;
     display: flex;
+    z-index: -1;
 }
-
-*/
-a:link, a:visited{
-    color: #176259;
+#menu-items a{
+    margin-right: 30px;
+    color: #017983;
+}
+#menu-items a:hover,a:active{
+    color: #FFF;
+    border-bottom-style: double;
+    border-bottom: 1px;
+    border-bottom-color: #FFF;
+    text-decoration: none;
 }
 #brand{
-    color: #061746;
+    color: #FFFFFF;
+    font-weight: 700;
 }
-.nav-item{
-    margin-right: 50px;
+
+#navbutton{
+    color: #08ef2b;
+    padding: 0;
 }
 .navbar{
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Amatic SC', cursive;
+    font-weight: 400;
 }
+

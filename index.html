@@ -4,35 +4,37 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" type="text/css" href="style.css">
-        
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,7|Indie+Flower|Press+Start+2P&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         
         <title>My Blog UwU</title>
     </head>
     
-    <body class="container-fluid">
+    <body class="container-fluid" id="particles-js">
         
         <header>
             <nav class="navbar navbar-expand-lg fixed-top">
                 <a class="navbar-brand" id="brand">Venkat Jagadeesh</a>
                 <!-- Toggler/collapsibe Button -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" id="navbutton" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+<!--                <span class="navbar-toggler-icon"></span>-->
+<!--                    <img src="https://img.icons8.com/doodle/48/000000/menu.png"/>-->
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAFGElEQVRoge2YwWscVRzHv2/evHmT2Z3Zmd1sAo0hFQ8G2oMgeNODePCv6MUeBC8FT6KHHCLoQQiStAaaiyDtxZO5eCl60BIsCUiV0hZLSrTirjvj7E52Z9578zwkG9rdjRttbFqYDzyWfe/35v1+vzfze7/fAwoKCgoKhqEAAgBknOBYAQCTAKb22ykAU5zzGcdx5kzTPJXn+ZQQwtVa21JK3uv1Jh5LdQCGYWjOeZqmKbdtu00p/SKO4w8B/HpUA16p1WrLcRy/xDlXtVotnZ6e1rOzs8bMzAyfnZ3l09PTmJqaQhAEqFQqqFQq4JzD8zxQSh/XhgPu37+P5eXl7NKlS91Op/MagB/HzZn3PC++cuWKTpJEPy2sra3ltVrtm7EWe5736cLCgjhphQe5d++eDoLgwaC+xmAH5/zFM2fOmEfc4SfG1tYWKKXbg/1DBmitd3d3d5+MVkdke3sbFy5cSJrN5uLg2JCnoyj6fm1t7c1er2c7jgPOOSqVChhj8DwPtm1jYmIC5XIZjLGxiyulEMcxer0eut0uOp0OhBCIoghCCLTbbSRJgiiK8mazmTYaDdlqtfJWq6WjKCJhGLJut2tQSj8CsD74/FFRyLYs691SqTRPCAkopa7W2snzvJLnuaOUMrXWXEpp9SdorZFlmWOapjBNUwKAZVkZIUQAgGmaCSFE5XmeM8baUkpJCBFa61BrHWZZ1mi3238A+AtAtP/bbyGABwDysd4qKCh49jhKMvdvcQDwgTV8AC6A0n7zAZT3+1zLsnzOed0wDM8wDE4ptbTWHiGEGIYRhmH4lRBiFYA4igGEMfa27/vnhBDPAbABQErJpJQMAAghBACUUqYQ4pHDgDEm+6GU7IFSqZSVSqXcdV2Uy2WynwBS3/fNIAi467rwfR+u68I0TVBK4XkeAKDZbGJpaWn39u3bX4ZheG6sAY7jvD8/P//e4uJi6fTp0+B8z5mjDi7OORzHGeGD46XdbqNer2dpmlYBJP8oHATBLxsbGyeYto2mXq+3ATw/qO9QLpTnuVOv14/Ne8dBmqaIoogDaAyODRnAGAsbjSG5E+Xy5cu567o3AHQGx4aSOSnlxsWLF1/wfZ+5rgvbto9VmTiOoZR6pC8IgiG5NE2xs7ODq1evitXV1d1Op/PWqOeNikK1arX6WZ7nr0opuZTS6kedo9S7nPMeIURrrfWoccZYSik9sEBrjTRNH4kEhBBCKc045w0hxNdxHC8C+H3c2gUFBc8ghyVzr09OTn5MCKlqrUmapk4/EgFQnPOuUkpZltUBoIUQqWVZCQCkaSoopbuGYYhut5sxxqhhGEwp5XLOmVLK0lo7lFJDCDFhGAZXSplSStswjKFzCQAMw0iyLPu80+ksYKC0HGlAqVRqraysBGfPnoXv++jrLqVEu90GAGRZhiTZS0v6hXufJEmQZdnB/4eTs4fzp35+xRhDuVw+zMmI4xjnz59Pbt68+UGapkuHCvaxbbsbRdFJpj5DrK+v63q9/t3Q7hxiwJ87OztjDX3SEEKGDsfD3rnr165de6quMe7evaullL8N9h/2Eb9crVa/3dzcLM3Nzf3PquHg0gvYe9/DMESz2cSdO3ewtbXV29zcTG/dukWSJHkDwA8Pzz20pHQc5x2l1CeU0oNt6/V6th6d4jwWpmlK0zSF1lpbltU1TTOmlLaEED9FUXQDwM8ArgMYuvMcVxNb2Kth/wsxADVWqqCgoKDgJPkbYHJbQCBJPO0AAAAASUVORK5CYII=">
                 </button>
                 
                 <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#secAboutMe">About Me</a>
+                    <ul class="navbar-nav" id="menu-items">
+                        <li>
+                            <a href="#secAboutMe">About Me</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#secAcademics">Academics</a>
+                        <li>
+                            <a href="#secAcademics">Academics</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#secBlog">Blog</a>
+                        <li>
+                            <a href="#secBlog">Blog</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#secContact">Contact</a>
+                        <li>
+                            <a href="#secContact">Contact</a>
                         </li>
 
                     </ul>
@@ -42,11 +44,11 @@
         </header>
         
         <section class="content" id="secAboutMe">
-
+            
         </section>
         
         <section class="content" id="secAcademics">
-
+            
         </section>
         
         <section class="content" id="secBlog">
