@@ -20,12 +20,16 @@ body{
     font-family: 'Indie Flower', cursive;
 }
 
+
+/*--------------PARTICLES----------------------*/
 #particles-js{
 
     background: #000;
     display: flex;
     z-index: -1;
 }
+
+/*-------------------NAVBAR-------------------------*/
 #menu-items a{
     margin-right: 30px;
     color: #017983;
@@ -57,3 +61,14 @@ body{
     color: chartreuse;
 }
 
+
+
+@media only screen and (max-width:480px)
+{
+    *{
+        font-size: 30px;
+    }
+    #brand{
+        font-weight: 400;
+    }
+}
