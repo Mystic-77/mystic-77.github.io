@@ -2,10 +2,15 @@
 font-family: 'Indie Flower', cursive;
 font-family: 'Amatic SC', cursive;
 font-family: 'Press Start 2P', cursive;
+color: #017983;
+color: #0080ff;
 */
 
 *{
     font-size: 40px;
+/*    background-image: linear-gradient(rgb(0,0,0),rgb(0,0,0));*/
+    font-family: 'Amatic SC', cursive;
+    color: #0080ff;
 }
 
 ::selection{
@@ -13,22 +18,34 @@ font-family: 'Press Start 2P', cursive;
 }
 body{
     margin: 0;
-    padding: 0;
-    height: 100vh;
-    background-attachment: fixed;
+/*    padding: 250px 15px 0 15px;*/
+    background-color: transparent;
+}
+
+/*------------PARTICLES----------------------*/
+#particles-js
+{
     background-color: black;
-    font-family: 'Indie Flower', cursive;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+/*    padding-top: 100px;*/
+    z-index:-1;
 }
 
+/*-------------------HEADER----------------------------*/
+header{
+    background-size:cover;
+    background-position: center;
 
-/*--------------PARTICLES----------------------*/
-#particles-js{
-
-    background: #000;
-    display: flex;
-    z-index: -1;
 }
-
+#status{
+    background-color: transparent;
+/*    margin: 100px 0 100px 0;*/
+    padding-top: 200px;
+    color: #b100ff;
+    text-align: center;
+}
 /*-------------------NAVBAR-------------------------*/
 #menu-items a{
     margin-right: 30px;
@@ -47,18 +64,24 @@ body{
 }
 
 #navbutton{
-    color: #08ef2b;
     padding: 0;
     margin: 0;
 }
+/*
+img #toggler{
+    height: 48px;
+    width: 48px;
+    background-color:#017983;
+    
+}
+*/
 
 .navbar{
-    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0));
+
+/*    background-color: transparent;*/
     font-family: 'Amatic SC', cursive;
     font-weight: 400;
-}
-#toggler{
-    color: chartreuse;
 }
 
 
@@ -71,4 +94,13 @@ body{
     #brand{
         font-weight: 400;
     }
+}
+
+#toggler {
+    color:#017983;
+}
+
+/*----------------SECTION-----------------*/
+#secBlog{
+    padding: 100px 0 100px 0;
 }
