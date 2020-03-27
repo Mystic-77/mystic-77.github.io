@@ -42,7 +42,7 @@ header{
 #status{
     background-color: transparent;
 /*    margin: 100px 0 100px 0;*/
-    padding-top: 200px;
+    padding: 200px 20px 200px 20px;
     color: #b100ff;
     text-align: center;
 }
@@ -101,6 +101,18 @@ img #toggler{
 }
 
 /*----------------SECTION-----------------*/
-#secBlog{
-    padding: 100px 0 100px 0;
+.content{
+    padding: 10px 5% 10px 5%;
+}
+#secAboutMe h3{
+    color:skyblue;
+}
+#secAcademics h3{
+    color: brown;
+}
+#secBlog h3{
+    color:limegreen;
+}
+#secContact h3{
+    color:darkgoldenrod;
 }
