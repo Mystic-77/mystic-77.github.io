@@ -10,7 +10,7 @@ color: #0080ff;
     font-size: 40px;
 /*    background-image: linear-gradient(rgb(0,0,0),rgb(0,0,0));*/
     font-family: 'Amatic SC', cursive;
-    color: #0080ff;
+    color: #017983;
 }
 
 ::selection{
@@ -43,7 +43,7 @@ header{
     background-color: transparent;
 /*    margin: 100px 0 100px 0;*/
     padding: 200px 20px 200px 20px;
-    color: #b100ff;
+    color: #c70f00;
     text-align: center;
 }
 /*-------------------NAVBAR-------------------------*/
@@ -94,6 +94,24 @@ img #toggler{
     #brand{
         font-weight: 400;
     }
+    .content{
+    font-size: 20px;
+    }
+    #secAboutMe h3{
+    font-size:40px;
+    }
+    #secAcademics h3{
+        color: brown;
+        font-size:40px;
+    }
+    #secBlog h3{
+        color:limegreen;
+        font-size:40px;
+    }
+    #secContact h3{
+        color:darkgoldenrod;
+        font-size:40px;
+    }
 }
 
 #toggler {
@@ -102,7 +120,18 @@ img #toggler{
 
 /*----------------SECTION-----------------*/
 .content{
-    padding: 10px 5% 10px 5%;
+    padding: 40px 5% 10px 5%;
+}
+h5{
+    padding: 15px 0 15px 0;
+}
+h3{
+    padding: 20px 0 60px 0;
+    text-align: center;
+}
+#secBlog{
+    text-align: center;
+    margin: 0 0 200px 0;
 }
 #secAboutMe h3{
     color:skyblue;
@@ -115,4 +144,27 @@ img #toggler{
 }
 #secContact h3{
     color:darkgoldenrod;
+}
+.content div{
+    font-size: 40px;
+}
+.col-md-6{
+    padding-top: 20px;
+}
+#secAcademics img{
+    padding: 0 20px 0 20px;
+}
+#secContact{
+    text-align: center;
+    
+}
+#secContact .contact-icons{
+    padding: 15px 10px 15px 10px;
+}
+#footer{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    color: aliceblue;
 }
