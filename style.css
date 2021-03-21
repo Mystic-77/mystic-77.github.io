@@ -10,7 +10,8 @@ color: #0080ff;
     font-size: 40px;
 /*    background-image: linear-gradient(rgb(0,0,0),rgb(0,0,0));*/
     font-family: 'Amatic SC', cursive;
-    color: #017983;
+    color: #18c9da;
+    /* 017983 */
 }
 
 ::selection{
@@ -49,7 +50,7 @@ header{
 /*-------------------NAVBAR-------------------------*/
 #menu-items a{
     margin-right: 30px;
-    color: #017983;
+    color: #148994;
 }
 #menu-items a:hover,a:active{
     color: #FFF;
@@ -101,7 +102,7 @@ img #toggler{
     font-size:40px;
     }
     #secAcademics h3{
-        color: brown;
+        color: rgb(241, 59, 59);
         font-size:40px;
     }
     #secBlog h3{
@@ -137,7 +138,7 @@ h3{
     color:skyblue;
 }
 #secAcademics h3{
-    color: brown;
+    color: rgb(241, 59, 59);
 }
 #secBlog h3{
     color:limegreen;
